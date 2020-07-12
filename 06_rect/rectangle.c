@@ -2,13 +2,13 @@
 #include <stdlib.h>
 //I've provided "min" and "max" functions in
 //case they are useful to you
-int min (int a, int b) {
+int min(int a, int b) {
   if (a < b) {
     return a;
   }
   return b;
 }
-int max (int a, int b) {
+int max(int a, int b) {
   if (a > b) {
     return a;
   }
@@ -39,14 +39,31 @@ rectangle canonicalize(rectangle r) {
 }
 rectangle intersection(rectangle r1, rectangle r2) {
   //WRITE THIS FUNCTION
-  rectangle r ;
-  r.x=max(r1.x,r2.x);
-  r.y=max(r1.y,r2.y);
-  r.width=min(r1.width,r2.width);
-  r.height=min(r1.height,r2.height);
-  return r;
+   rectangle empty = {0,0,0,0} ;
+  r1= canonicalize(r1);
+  r2 = canonicalize(r2);
+  
+  int a = max(r1.x, r2.x);
+  int b =min(r1.x+r1.width, r2.x+r2.width);
+  if(a>b){
+    return empty;
+  }
+  
+  int c = max(r1.y, r2.y);
+  int d = min(r1.y+r1.height, r2.y+r2.height);
+  if(c>d){
+    return empty;
+  }
+  rectangle ans ={
+    a,
+    c,
+    b-a,
+    d-c
+  } ;
+  return ans ;
 }
 
+  
 //You should not need to modify any code below this line
 void printRectangle(rectangle r) {
   r = canonicalize(r);
