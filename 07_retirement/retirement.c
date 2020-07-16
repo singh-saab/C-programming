@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-struct retire{
+struct  _retire_info{
   int months;
   double contribution;
   double rate_of_return;
 };
-typedef struct retire retire_info;
+typedef struct _retire_info retire_info;
 
 double next_balance(double balance ,retire_info r)
 {return balance + balance*r.rate_of_return + r.contribution ;
@@ -49,7 +49,7 @@ void retirement(int startAge,double initial,retire_info working,retire_info reti
    
 
 
-  int main(){
+  int main(void){
     retire_info working ={
       489 ,1000.0,0.045/12
     };
