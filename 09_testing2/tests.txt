@@ -27,3 +27,23 @@ AKASH SNEHA
 +++++ ----+
 abcde gthfh
 aabcd aabbb
+aaa bbb ccc
+aaaaA aaaaa
+aaaaa bbbbb
+aaaaa bbbbc
+aaaaa bbbcc
+aaaaa bbccc
+aaaaa bcccc
+aaaaa bbbbb
+aaaab bcccc
+aaaab bbbbc
+aaaab bbbcc
+aaaab bbccc
+aaaab ccccc
+aaabc bbccc
+aaaa  bbbb
+aaaa bbbbb
+aaaaa bbbb
+13333 ? ???
+a
+aaaaa bbbbbb
