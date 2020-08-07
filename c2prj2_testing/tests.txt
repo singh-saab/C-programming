@@ -1,8 +1,0 @@
-9c Kd Qd 0s Jh ; Kh 0h 9h Jh Qh
-3h As 5h 2s 4d ;Ah As 2d 4s 9c
-3s 5s 2s As 4s ;Ah 4h 3h 5h 2h
-3c 5s 2h As 4d ;Ac 5c 4c 6c 3c
-Ks Kh Js Jh Jd ;0d Jc Kd 9s Qc
-As 0h 0s Ah 0d ;Ac 0c 9c 7c 6c
-0d 9d 8d 7d 6d 5d 4d; Ah Kh 9h 7d 4h 3h 2h
-As Ah Kc   ; Ah As Kc Qc 8c 5c 3c
