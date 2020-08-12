@@ -3,20 +3,16 @@
 #include <string.h>
 
 void reverse(char * str) {
-  //WRITE ME!
-  int si=0,ei=0,length;
-  char ch;
-  length = strlen(str);
-  ei=length -1;
-  for(int i=0;i<length/2;i++)
-    {
-      ch =str[si];
-      str[si]=str[ei];
-      str[ei]=ch;
-      si++;
-      ei--;
+  if (str != NULL){
+    int len = strlen(str);
+    for(size_t i=0;i<len/2;i++){
+      char temp = str[i];
+      str[i] = str[len-1-i];
+      str[len-1-i] = temp;
     }
+  }
 }
+
 int main(void) {
   char str0[] = "";
   char str1[] = "123";
