@@ -34,4 +34,4 @@ should look like the contents of the file sample.out.
 of a program to a file, and use diff to compare
 the contents of two files).
 
-Note that you do not have to complete the rotation 'in place'.
+ Note that you do not have to complete the rotation 'in place'.
