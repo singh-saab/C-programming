@@ -1,0 +1,10 @@
+
+ip0.txt
+ip1.txt
+ip2.txt
+ip3.txt
+ip4.txt
+ip5.txt
+ip7.txt
+khali.input
+khali ip2.txt
